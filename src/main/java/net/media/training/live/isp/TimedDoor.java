@@ -1,6 +1,6 @@
 package net.media.training.live.isp;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+//import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 /**
  * Created by IntelliJ IDEA.
@@ -39,7 +39,4 @@ public class TimedDoor implements Door,TimerClient  {
         this.isLocked = true;
     }
 
-    public void proximityCallback() {
-        throw new NotImplementedException();
-    }
 }
